@@ -1,0 +1,189 @@
+body {
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+    background-image: url("https://kingkong.co/wp-content/themes/kingkong/assets/prod/qg/images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    background-color: #0d0d0d;
+}
+
+.hero-wrap {
+    height: 80%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 60rem;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attention {
+    display: flex;
+    align-content: center;
+    margin: auto;
+    background-color: #0d0d0d50;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.attention-text {
+    margin: 0;
+    color: #f6f6f6;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    color: #f6f6f6;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 3rem;
+    letter-spacing: .05rem;
+}
+
+p {
+    margin: 0;
+    color: #f6f6f6;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1.5rem;
+    letter-spacing: .05rem;
+}
+
+.pop-up-div {
+    display: flex;
+}
+
+.pop-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+    z-index: 30;
+    background-color: white;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #f6f6f6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pop-up-wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pop-up-image {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    cursor: default;
+}
+
+.pop-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: .5rem;
+}
+
+.pop-up-header {
+    margin: 0;
+    padding: .25rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: .85rem;
+    line-height: 1;
+    color: #0d0d0d;
+    background-color: #f6f6f6;
+    cursor: default;
+}
+
+.pop-up-subheader {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: .85rem;
+    line-height: 1;
+    color: grey;
+    cursor: default;
+}
+
+.pop-up-time {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.time-text {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: .75rem;
+    line-height: .8;
+    color: grey;
+    cursor: default;
+}
+
+.pop-up-verify {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: .5rem;
+}
+
+.icon-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.verify-icon {
+    height: .85rem;
+    width: .85rem;
+    color: #0098ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verify-text {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: .8;
+    color: #0098ff;
+    cursor: default;
+}
